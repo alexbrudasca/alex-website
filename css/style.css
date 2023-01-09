@@ -468,6 +468,13 @@ header {
     border-radius: 0.4rem;
 
 }
+.contact-form input,.contact-form textarea{
+    border: 0.05rem solid #F5EEDC;
+    overflow: hidden;
+}
+.contact-form :nth-child(4){
+    border: none;
+}
 
 .contact-form .send-btn {
     width: 120px;
@@ -517,6 +524,7 @@ header {
     position: fixed;
     bottom: -100%;
     right: 1.5rem;
+    border: 1px solid #fff;
 }
 
 .scroll-top .bx {
