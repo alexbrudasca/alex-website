@@ -58,6 +58,7 @@ header {
     background: var(--box-color);
     transition: 0.4s;
 }
+/* navbar Section */
 .nav {
     display: flex;
     align-items: center;
@@ -114,7 +115,8 @@ header {
 .move .line3 {
     transform: rotate(45deg) translate(-5px,-5px);
 }
-
+/* End of navbar Section */
+/*  MainHeader */
 .home{
     min-height: 600px;
     display: flex;
@@ -214,7 +216,7 @@ header {
     background: var(--main-color);
     transition: 0.3s all linear;
 }
-
+/* End of MainHeading */
 .heading {
     font-size: 5rem;
     text-transform: uppercase;
